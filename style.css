@@ -7,9 +7,12 @@ body{
     height: 500px;
     border: 20px solid #00818a;
     border-radius:50%;
-    margin-top: 50px;
-    margin-left: 470px;
+    margin:auto;
     position: relative;
+}
+h1{
+   text-align:center;
+    text-decoration:underline;
 }
 .point{
     width: 20px;
