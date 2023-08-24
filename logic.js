@@ -11,5 +11,6 @@ setInterval(
         document.getElementById("seconds-hand").style.transform="rotate(" + sec + "deg)";
         document.getElementById("minute-hand").style.transform="rotate(" + min + "deg)";
         document.getElementById("hour-hand").style.transform="rotate(" + h + "deg)";
+         document.getElementById("time").innerHTML=d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
     },1000
 );
